@@ -101,6 +101,39 @@
   width: calc((100% - 30px * 4) / 4);
 }
 
+.advantades-item::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background: var(--secondary-greey-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.icon-antenna::before {
+  content: "";
+  background-image: url("../images/icones/antenna.svg");
+}
+
+.icon-clock::before {
+  content: "";
+  background-image: url("../images/icones/clock.svg");
+}
+
+.icon-diagram::before {
+  content: "";
+  background-image: url("../images/icones/diagram.svg");
+}
+
+.icon-astronaut::before {
+  content: "";
+  background-image: url("../images/icones/astronaut.svg");
+}
+
 .advantades-title {
   margin-top: 0;
   margin-bottom: 10px;
