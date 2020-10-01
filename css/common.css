@@ -173,7 +173,16 @@ img {
   background-color: #2f303a;
 }
 
+.footer-nav {
+  display: flex;
+  align-items: baseline;
+}
+
 /* Footer-logo */
+
+.address-footer {
+  margin-right: 69px;
+}
 
 .logo-footer {
   display: inline-block;
@@ -205,4 +214,39 @@ img {
 
 .contact {
   color: var(--light-text-color);
+}
+
+/* Socials-footer */
+.title-footer {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+}
+
+.joil-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+
+  background-image: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.joil-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.joil-item:hover,
+.joil-item:focus {
+  background-color: var(--accent-color);
 }
