@@ -247,9 +247,6 @@
 .client-list {
   display: flex;
   justify-content: space-between;
-
-  /*flex-wrap: wrap;
-  width: calc((100% - 150px) / 6);*/
 }
 
 .client-item .link {
@@ -262,6 +259,11 @@
 
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.client-item .link:hover,
+.client-item .link:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .client1 {
