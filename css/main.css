@@ -243,6 +243,54 @@
   background-repeat: no-repeat;
 }
 
+/* Clients */
+.client-list {
+  display: flex;
+  justify-content: space-between;
+
+  /*flex-wrap: wrap;
+  width: calc((100% - 150px) / 6);*/
+}
+
+.client-item .link {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.client1 {
+  width: 44px;
+  height: 49px;
+
+  background-image: url("../images/icones/client1.svg");
+}
+
+.client2 {
+  background-image: url("../images/icones/client2.svg");
+}
+
+.client3 {
+  background-image: url("../images/icones/client3.svg");
+}
+
+.client4 {
+  background-image: url("../images/icones/client4.svg");
+}
+
+.client5 {
+  background-image: url("../images/icones/client5.svg");
+}
+
+.client6 {
+  background-image: url("../images/icones/client6.svg");
+}
+
 /* ====== Стили для portfolio.html ====== */
 
 /* Portfolio */
