@@ -202,6 +202,47 @@
   line-height: 1.18;
 }
 
+.socials-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials-item .link {
+  display: inline-block;
+
+  width: 44px;
+  height: 44px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-instagtam {
+  background-image: url("../images/icones/instagram.svg");
+}
+
+.icon-twiter {
+  background-image: url("../images/icones/twitter.svg");
+}
+
+.icon-facebook {
+  background-image: url("../images/icones/fecebook.svg");
+}
+
+.icon-linkedin {
+  background-image: url("../images/icones/linkedin.svg");
+}
+
+.socials-item .link:hover,
+.socials-item .link:focus {
+  border-radius: 50%;
+
+  color: #ffffff;
+  background-color: var(--accent-color);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* ====== Стили для portfolio.html ====== */
 
 /* Portfolio */
