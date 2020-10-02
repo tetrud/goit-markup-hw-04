@@ -213,7 +213,7 @@
   height: 44px;
   border-radius: 50%;
 
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 
 .icon-socials {
@@ -234,47 +234,21 @@
 }
 
 .client-item .link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 90px;
 
-  border: 1px solid #afb1b8;
+  fill: var(--icon-color);
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
-
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .client-item .link:hover,
 .client-item .link:focus {
   border: 1px solid var(--accent-color);
-}
-
-.client1 {
-  width: 44px;
-  height: 49px;
-
-  background-image: url("../images/icones/client1.svg");
-}
-
-.client2 {
-  background-image: url("../images/icones/client2.svg");
-}
-
-.client3 {
-  background-image: url("../images/icones/client3.svg");
-}
-
-.client4 {
-  background-image: url("../images/icones/client4.svg");
-}
-
-.client5 {
-  background-image: url("../images/icones/client5.svg");
-}
-
-.client6 {
-  background-image: url("../images/icones/client6.svg");
+  fill: var(--accent-color);
 }
 
 /* ====== Стили для portfolio.html ====== */

@@ -7,6 +7,7 @@
   --light-text-color: rgba(255, 255, 255, 0.6);
   --primary-white-color: #ffffff;
   --secondary-greey-color: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -204,6 +205,11 @@ img {
   color: var(--light-text-color);
 }
 
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
 /* Socials-footer */
 .title-footer {
   display: block;
@@ -225,7 +231,7 @@ img {
 .icon-socials-footer {
   width: 20px;
   height: 20px;
-  fill: #ffffff;
+  fill: var(--primary-white-color);
 }
 
 .joil-item:not(:last-child) {
