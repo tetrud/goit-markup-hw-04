@@ -117,36 +117,22 @@ img {
 /* Address */
 
 .address {
+  display: flex;
+
   margin-left: auto;
 }
-.navigation-mailto::before {
-  content: "";
-  background-image: url("../images/icones/envelope.svg");
-}
 
-.navigation-tel::before {
-  content: "";
-  background-image: url("../images/icones/smartphone.svg");
-}
-
-.address .link::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 12px;
-
-  background-repeat: no-repeat;
-  background-size: contain;
+.icon-address {
   margin-right: 10px;
+
+  fill: currentColor;
 }
 
-.address .navigation-tel {
-  margin-left: 30px;
-}
+.address .link {
+  display: inline-flex;
+  align-items: center;
 
-.navigation-mailto,
-.navigation-tel {
-  display: inline-block;
+  padding: 32px 0px;
 
   color: var(--paragraph-text-color);
 
@@ -157,10 +143,12 @@ img {
   letter-spacing: 0.02em;
 }
 
-.navigation-mailto:hover,
-.navigation-mailto:focus,
-.navigation-tel:hover,
-.navigation-tel:focus {
+.address .link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-color);
 }
 
