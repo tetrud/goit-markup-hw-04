@@ -151,6 +151,7 @@ img {
 .address .link:hover,
 .address .link:focus {
   color: var(--accent-color);
+  fill: inherit;
 }
 
 /* ====== FOOTER ====== */
